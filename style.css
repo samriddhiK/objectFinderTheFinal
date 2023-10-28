@@ -1,0 +1,54 @@
+body
+{
+    background-size:cover;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+h1
+{
+    font-size:27px;
+    width:100%;
+    margin:0px;
+    background-color:#40194b;
+    color:rgb(255, 255, 255)
+}
+
+#start , #number_of_objects, #start
+{
+    font-size: 18px;
+    background-color: #3d1947;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+
+#status, #object_status
+{
+    font-size: 18px;
+    background-color:#57385f;
+    color:rgb(255, 255, 255);
+}
+
+.copy_right_footer {
+    position: fixed;
+    color:rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    background-color:#4b155a;
+    line-height: 3;
+    text-align:center;
+}
+
+canvas
+{
+    border:2px solid rgb(58, 35, 85);
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px rgb(52, 22, 87);
+}
+ 
+label
+{
+    color:#4b155a;
+}
+
